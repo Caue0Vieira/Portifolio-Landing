@@ -1,0 +1,61 @@
+.services-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 0 1rem;
+}
+
+/* Layout em colunas a partir de tablets */
+@media (min-width: 768px) {
+    .services-section {
+        flex-direction: row;
+    }
+}
+
+.services-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.services-right {
+    flex: 1;
+    color: white;
+}
+
+.services-right h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.services-right p {
+    color: #9ca3af;
+    line-height: 1.6;
+}
+
+/* Cards */
+.services-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    background-color: #1f2937; /* bg-gray-800 */
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card h4 {
+    color: #34d399; /* text-green-400 */
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: #d1d5db; /* text-gray-300 */
+}

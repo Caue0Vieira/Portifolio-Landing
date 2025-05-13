@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid #4b5563; /* cinza escuro */
+    background-color: #111827; /* bg-gray-900 */
+    color: white;
+    position: relative;
+}
+
+.navbar-left {
+    position: absolute;
+    left: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-center {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.navbar-center a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+}
+
+.navbar-center a:hover {
+    color: #34d399; /* text-green-400 */
+}
+
+.navbar-right {
+    position: absolute;
+    right: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-right a {
+    color: white;
+    transition: color 0.2s;
+}
+
+.navbar-right a:hover {
+    color: #34d399;
+}
