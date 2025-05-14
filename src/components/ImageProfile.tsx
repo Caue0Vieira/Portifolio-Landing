@@ -1,5 +1,3 @@
-import React from "react";
-
 const ImageProfile = () => (
     <div className="flex justify-center">
         <img

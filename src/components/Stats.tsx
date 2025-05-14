@@ -1,5 +1,4 @@
-import React from "react";
-import "../styles/Stats.css"; // Importa o CSS
+import "../styles/Stats.css";
 
 const Stats = () => (
     <div className="stats">

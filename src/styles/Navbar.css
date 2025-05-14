@@ -3,9 +3,9 @@
     align-items: center;
     justify-content: center;
     padding: 1.5rem 1rem;
-    border-bottom: 1px solid #4b5563; /* cinza escuro */
-    background-color: #111827; /* bg-gray-900 */
-    color: white;
+    border-bottom: 1px solid #2A2A2E; /* borda mais sutil */
+    background-color: #1C1C1E; /* cinza antracite */
+    color: #F5F5F5;
     position: relative;
 }
 
@@ -14,6 +14,7 @@
     left: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
+    color: white; /* destaque neon */
 }
 
 .navbar-center {
@@ -24,12 +25,12 @@
 
 .navbar-center a {
     text-decoration: none;
-    color: white;
+    color: #F5F5F5;
     transition: color 0.2s;
 }
 
 .navbar-center a:hover {
-    color: #34d399; /* text-green-400 */
+    color: #08FDD8; /* verde-água neon */
 }
 
 .navbar-right {
@@ -40,10 +41,10 @@
 }
 
 .navbar-right a {
-    color: white;
+    color: #F5F5F5;
     transition: color 0.2s;
 }
 
 .navbar-right a:hover {
-    color: #34d399;
+    color: #08FDD8;
 }

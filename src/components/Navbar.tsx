@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaEnvelope } from "react-icons/fa";
 import "../styles/Navbar.css";
 

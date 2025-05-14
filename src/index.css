@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1E; /* Cinza antracite */
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+}

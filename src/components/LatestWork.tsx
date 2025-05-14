@@ -1,5 +1,3 @@
-import React from "react";
-
 const LatestWork = () => (
     <section className="section-latest-work">
         <div className="services-latest-work-left">

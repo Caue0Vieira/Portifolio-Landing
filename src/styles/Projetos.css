@@ -1,5 +1,7 @@
 .section-projetos {
     padding: 2rem;
+    background-color: #1C1C1E; /* fundo da seção em antracite */
+    color: #F5F5F5; /* texto claro */
 }
 
 .projetos-grid {
@@ -9,21 +11,28 @@
 }
 
 .card-projeto {
-    background: white;
+    background: #2A2A2E; /* fundo do card mais escuro */
     padding: 1.5rem;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, border 0.2s ease;
+    color: #F5F5F5;
 }
 
 .card-projeto:hover {
     transform: scale(1.02);
+    border: 1px solid #08FDD8; /* destaque neon no hover */
 }
 
 .card-projeto a {
     display: inline-block;
     margin-top: 1rem;
-    color: #007bff;
+    color: #08FDD8; /* link neon */
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.2s;
+}
+
+.card-projeto a:hover {
+    color: #00e0c6; /* um pouco mais claro no hover */
 }

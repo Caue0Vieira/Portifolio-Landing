@@ -5,9 +5,10 @@
     margin-top: 3rem;
     align-items: center;
     padding: 0 1rem;
+    background-color: #1C1C1E; /* fundo antracite */
 }
 
-/* Aplica layout em duas colunas para telas médias e maiores */
+/* Layout de duas colunas para telas médias e maiores */
 @media (min-width: 768px) {
     .hero-section {
         flex-direction: row;
@@ -17,17 +18,18 @@
 
 .hero-text {
     flex: 1;
-    color: white;
+    color: #F5F5F5; /* texto claro suave */
 }
 
 .hero-text h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    color: #08FDD8; /* destaque neon para o título */
 }
 
 .hero-text p {
-    color: #9ca3af; /* text-gray-400 */
+    color: #C9D1D9; /* texto secundário suave */
     margin-bottom: 1.5rem;
 }
 
